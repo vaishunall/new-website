@@ -1,23 +1,40 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Link, Routes, Navigate } from "react-router-dom";
+import Page1 from './Page1';
+import HomePage from './HomePage';
+
+import Header from './components/Header/Header';
+import Home from './pages/Home/Home';
+import Mimic from './pages/Home/Mimic';
+import PersonalWebsite from './pages/Home/PersonalWebsite';
+import WingIt from './pages/Home/WingIt';
+import WmweWebsite from './pages/Home/WmweWebsite';
+import CamCompanion from './pages/Home/CamCompanion';
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header></Header>
+
+
+        <Routes>
+          <Route exact path='/' element={<Home></Home>}></Route>
+          <Route path='/mimic' element={<Mimic></Mimic>}></Route>
+          <Route path='/personalwebsite' element={<PersonalWebsite />}></Route>
+          <Route path='/wingit' element={<WingIt></WingIt>}></Route>
+          <Route path='/wmwewebsite' element={<WmweWebsite></WmweWebsite>}></Route>
+          <Route path='/camcompanion' element={<CamCompanion />}></Route>
+          <Route path="" element={<Navigate to="/" />} />
+
+        </Routes>
+      </Router>
     </div>
   );
 }
