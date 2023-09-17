@@ -7,15 +7,16 @@ import Shape from "../../components/Three/Sphere.js";
 import { Card } from "./Card";
 import { Feedback } from "./Feedback";
 import JavaIcon from "../../assets/Java-skill.png";
-import FirebaseIcon from "../../assets/firebase-skill.png";
-import SwiftIcon from "../../assets/swift-skill.png";
-import PythonIcon from "../../assets/python-skill.png";
 import CplusplusIcon from "../../assets/Cplusplus-skill.png";
 import JavascriptIcon from "../../assets/Javascript-skill.png";
 import HtmlIcon from "../../assets/Html-skill.png";
 import CssIcon from "../../assets/Css-skill.png";
 import ReactIcon from "../../assets/react_skill.png";
 import ReactNativeIcon from "../../assets/reactnative_skill.png";
+import PythonIcon from "../../assets/python-skill.png";
+import SwiftIcon from "../../assets/swift-skill.png";
+import FirebaseIcon from "../../assets/firebase-skill.png";
+import FlutterIcon from "../../assets/flutter_skill.png";
 import GitIcon from "../../assets/git_skill.png";
 import FigmaIcon from "../../assets/figma_skill.png";
 import AboutMeImage from "../../assets/image-aboutme.jpg";
@@ -40,7 +41,7 @@ export default class Home extends Component {
             
                 <h1 className='subheading1'>hey, it's</h1>
                 <img className='vyshnaviNalla' src={name}></img>
-                <h1 className='subheading2'>I’m a senior majoring in computer science looking for new grad positions</h1>
+                <h1 className='subheading2'>I’m a senior majoring in computer science looking for new grad roles</h1>
                 <Button 
                 color1= {"#FFFFFF"}
                 children = {"get in touch"}
@@ -76,7 +77,7 @@ export default class Home extends Component {
             <Card
             projectName= {"WMWE Website"}
             projectDescription = {"A website for WMWE (Women Mentoring Women in Engineering) at UTD built to better organize the biannual mentoring program and present all related information to the mentees and mentors in one place."}
-            projectTags = {"React JS,Project Management"}
+            projectTags = {"React JS"}
             image = {wmweIcon}
             navigateTo = {'/wmwewebsite'}
             award = {null}
@@ -175,12 +176,11 @@ export default class Home extends Component {
             <div className="flex-leadership">
               <img className="leadership-image" src={WmweIcon}></img>
               <div className="text-leadership">
-                <h1 className="subheading3" >President of Women Mentoring Women in Engineering</h1>
-                <h3 className="body1" >2023 - Present</h3>
+                <h1 className="subheading3" >Vice President of Women Mentoring Women in Engineering</h1>
+                <h3 className="body1" >2022 - Present</h3>
                 <ul>
                   <li className="body1" style={{textAlign: "left"}}>Manage 130+ members which include officers, students, and industry mentors to lead new initiatives and effectively communicate with various student organizations and faculty</li>
                   <li className="body1" style={{textAlign: "left"}}>Lead the teaching of technical workshops such as “Firebasics: All about Firebase” and “Intro to UI/UX and Figma”</li>
-                  <li className="body1" style={{textAlign: "left"}}>Previous positions held: Vice President 2022- 2023, Marketing Chair 2021-2022</li>
                 </ul>
               </div>
             </div>
@@ -190,7 +190,7 @@ export default class Home extends Component {
                 <h1 className="subheading3">Director of Media at ACM UTD</h1>
                 <h3 className="body1">2021 - 2022</h3>
                 <ul>
-                  <li className="body1" style={{textAlign: "left"}}>Oversaw design and marketing for the largest organization on campus with 500+ members</li>
+                  <li className="body1" style={{textAlign: "left"}}>Spearheaded design and marketing for the largest organization on campus with 500+ members</li>
                   <li className="body1" style={{textAlign: "left"}}>Led a team of 5 design and marketing officers to formulate data driven marketing plans and set them into motion</li>
                 </ul>
               </div>
@@ -211,7 +211,7 @@ export default class Home extends Component {
 
           <div className="contact" id="contact">
           <h1 className="subheading2" style={{textAlign: "left"}}>contact</h1>
-          <h3 className="body1" style={{textAlign: "left", marginTop: "30px"}}>I regularly check my linkedin messages and my email, so feel free to reach out  :)</h3>
+          <h3 className="body1" style={{textAlign: "left", marginTop: "30px"}}>I regularly check my linkedin messages and my email, so feel free to reach out :)</h3>
           
           <div className="icon-text-flex">
               <FaEnvelopeSquare className="icon-contact"></FaEnvelopeSquare>
