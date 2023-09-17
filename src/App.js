@@ -14,7 +14,7 @@ import { BrowserRouter as Router, Routes, Route, redirect} from 'react-router-do
 function App() {
   return (
     <div className="App">
-    <Router basename='vaishunall.github.io'>
+    <Router>
      
       <Header></Header>
   
