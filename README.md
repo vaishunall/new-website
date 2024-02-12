@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# **My Personal Website**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Now live at https://www.vyshnavi-nalla.dev
 
-## Available Scripts
+<img width="1000" alt="Screenshot 2024-02-12 at 8 38 52 AM 1" src="https://github.com/vaishunall/vaishunall.github.io/assets/72366072/62939991-d88b-4cf5-979b-e9f871be02bc">
 
-In the project directory, you can run:
+## **TechStack**
 
-### `npm start`
+For this project, I decided to utilize React and Three.js for the frontend. I’ve been interested 3d animations and I found Three JS, a library that uses WEBGL for 3d rendering, and used it to render the distorting sphere on the home page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Components**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+When creating my website, I noticed that there were a lot of repeating elements, such as the project cards in the Projects section. To reduce code redundancy and make editing easier in the future, I created a custom card component that takes in the fields for the project card as parameters. This allows me to edit or create new project cards by simply changing the parameters being passed.
 
-### `npm test`
+<img width="1000" alt="ComponentsExample f8afd8669b09a9d2e8fd" src="https://github.com/vaishunall/vaishunall.github.io/assets/72366072/e34290e2-580f-4927-b9ae-2f1c775e77fe">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## **Feedback Form**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I wanted a way to get people’s thoughts and feedback about the website as it was newly made. So I implemented a form using Firebase and set up a simple Firestore Database that stores the name and the feedback from each response.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1000" alt="FirestoreExample dc89f9893d26635300b7" src="https://github.com/vaishunall/vaishunall.github.io/assets/72366072/30051f75-0fa2-4afd-8056-4c9ffb9123fa">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Design**
 
-### `npm run eject`
+Before starting code, I made sure to wireframe some screens on Figma to establish a robust and responsive design. I spent my time refining the colors, the text, and the layout to reflect my brand and to showcase my projects and skills. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="1000" alt="Screenshot 2024-02-12 at 8 36 36 AM" src="https://github.com/vaishunall/vaishunall.github.io/assets/72366072/f9ae9b95-17ce-4938-a5f3-001e63044f36">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
