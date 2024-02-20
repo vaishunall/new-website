@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.388f957e.css",
-    "main.js": "/static/js/main.320a14eb.js",
+    "main.css": "/static/css/main.bd6cec3b.css",
+    "main.js": "/static/js/main.92e16df4.js",
     "static/js/787.5473409b.chunk.js": "/static/js/787.5473409b.chunk.js",
     "static/media/Mimic_Demo_High.mp4": "/static/media/Mimic_Demo_High.3ea4e9867fdb0ab433cf.mp4",
     "static/media/CamCompanionExample.gif": "/static/media/CamCompanionExample.fd8fe90f30422f318fd8.gif",
@@ -9,9 +9,11 @@
     "static/media/FirestoreExample.png": "/static/media/FirestoreExample.dc89f9893d26635300b7.png",
     "static/media/personal-website-photo.png": "/static/media/personal-website-photo.8edfe39cf4eb3b5bbc7f.png",
     "static/media/mimic-project-icon.png": "/static/media/mimic-project-icon.f95e4ec693f75b08ec04.png",
+    "static/media/instructor-scheduler-poster.png": "/static/media/instructor-scheduler-poster.84244375768dcbd76bb1.png",
     "static/media/WingItExample.png": "/static/media/WingItExample.e95fda558a1a876ba709.png",
     "static/media/WmweWebsiteExample.png": "/static/media/WmweWebsiteExample.1bf6ca1be098c092cca4.png",
     "static/media/ComponentsExample.png": "/static/media/ComponentsExample.f8afd8669b09a9d2e8fd.png",
+    "static/media/instructor-scheduler-project-icon.png": "/static/media/instructor-scheduler-project-icon.a934045129bdeb7fae7e.png",
     "static/media/Java-skill.png": "/static/media/Java-skill.1e33345465beb1cec7ce.png",
     "static/media/camcompanion-project-icon.png": "/static/media/camcompanion-project-icon.a11499c04d8d3bbbf219.png",
     "static/media/personal-website-project-icon.png": "/static/media/personal-website-project-icon.2e44b6421c7904849f1d.png",
@@ -33,12 +35,12 @@
     "static/media/flutter_skill.png": "/static/media/flutter_skill.1604eb1ea35f953dace4.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.388f957e.css.map": "/static/css/main.388f957e.css.map",
-    "main.320a14eb.js.map": "/static/js/main.320a14eb.js.map",
+    "main.bd6cec3b.css.map": "/static/css/main.bd6cec3b.css.map",
+    "main.92e16df4.js.map": "/static/js/main.92e16df4.js.map",
     "787.5473409b.chunk.js.map": "/static/js/787.5473409b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.388f957e.css",
-    "static/js/main.320a14eb.js"
+    "static/css/main.bd6cec3b.css",
+    "static/js/main.92e16df4.js"
   ]
 }
